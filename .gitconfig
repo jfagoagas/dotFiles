@@ -1,0 +1,14 @@
+[init]
+	defaultBranch = master
+[user]
+	name = 
+	email = 
+[alias]
+    logo = log --oneline
+    logf = log --name-only
+    co   = checkout
+    logg = log --all --decorate --oneline --graph
+    loga = log --pretty=format:'%h %<(20)%an %s' -10
+    find = log --all -p --reverse --source -S
+[pull]
+	rebase = true
